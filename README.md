@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../prg04gustavosouzasales/infraestructure/assets/images/image.png" width="80">
+  <img src="infraestructure/assets/images/image.png" width="80">
 
   ## UltraGás I Sistema de Gás
 
