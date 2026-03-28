@@ -1,16 +1,18 @@
 body {
-    background-color: #ffffff;
+    background: linear-gradient(to bottom, #0080ff, white);
+    min-height: 100vh;
     font-family: Arial, sans-serif;
     text-align: center;
 }
 
 h1 {
-    color: rgb(0, 0, 250);
+    color: rgb(13, 159, 250);
     font-size: 33px;
+    text-shadow: 2px 2px 4px black;
 }
 
 h2 {
-    color: #000000;
+    color: #003063;
 }
 
 .btn-voltar {
@@ -32,7 +34,7 @@ h2 {
 .btn {
     display: inline-block;
     padding: 12px 25px;
-    background-color: #007BFF;
+    background-color: #004289;
     color: white;
     text-decoration: none;
     border-radius: 50px;
@@ -43,4 +45,14 @@ h2 {
 .btn:hover {
     background-color: #0056b3;
     transform: scale(1.05);
+}
+
+.texto-centro {
+    max-width: 600px;   /* limita a largura */
+    margin: 0 auto;     /* centraliza */
+    text-align: center; /* centraliza o texto */
+}
+
+.fonte-diferente {
+    font-family: 'Georgia', serif;
 }
