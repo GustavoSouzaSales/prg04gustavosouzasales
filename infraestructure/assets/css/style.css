@@ -664,3 +664,28 @@ h1 {
     }
 }
 
+
+.btnindex {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #004289;
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btnindex:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
